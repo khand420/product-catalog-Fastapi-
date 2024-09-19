@@ -1,0 +1,112 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "product_catlog",
+    "collectionId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+    "dateExported": "2024-09-19T03:27:54.770Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2e3de429-1ed2-4568-829f-4c6d1b8eb7b0",
+            "colId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+            "containerId": "",
+            "name": "delete product",
+            "url": "http://127.0.0.1:8000//api/products/3/",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-09-16T14:11:08.389Z",
+            "modified": "2024-09-18T17:17:40.963Z",
+            "headers": []
+        },
+        {
+            "_id": "ac7c0e0d-54cf-4396-b07f-e24410c6fe5d",
+            "colId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+            "containerId": "",
+            "name": "create product",
+            "url": "http://127.0.0.1:8000/api/products/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-09-16T14:12:34.324Z",
+            "modified": "2024-09-19T03:06:11.943Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"vivo\",\n  \"description\": \"A description of the product\",\n  \"price\": 19.99,\n  \"inventory_count\": 100,\n  \"category\": \"Electronics\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "04c2878c-d375-4875-aa46-2ff630c42357",
+            "colId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+            "containerId": "",
+            "name": "update product ",
+            "url": "http://127.0.0.1:8000/api/products/3/",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-09-16T15:00:01.710Z",
+            "modified": "2024-09-19T03:08:55.900Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Hero\",\n  \"description\": \"This is a sample product\",\n  \"price\": 50.99,\n  \"inventory_count\": 100,\n  \"category\": \"Vechiles\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "b7ba4431-4d41-494f-9721-2a8f6851e749",
+            "colId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+            "containerId": "",
+            "name": "get product  ",
+            "url": "http://127.0.0.1:8000/api/products/3",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-09-16T15:02:27.471Z",
+            "modified": "2024-09-19T03:09:46.339Z",
+            "headers": []
+        },
+        {
+            "_id": "fb8db7ff-2579-4bf5-af8e-3c24ea855cc0",
+            "colId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+            "containerId": "",
+            "name": "search product ",
+            "url": "http://127.0.0.1:8000/api/products/search/?query=hero",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-09-16T15:03:21.963Z",
+            "modified": "2024-09-19T03:14:21.095Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "query",
+                    "value": "hero",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "61cd570a-34bd-45f9-886a-c501fac65dd5",
+            "colId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+            "containerId": "",
+            "name": "Sales Count",
+            "url": "http://127.0.0.1:8000/api/products/3/sell/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-09-16T15:08:22.343Z",
+            "modified": "2024-09-19T03:15:39.932Z",
+            "headers": []
+        },
+        {
+            "_id": "9f1ae0f4-5201-4499-8f75-e43d5debe8eb",
+            "colId": "a9512a2c-dc67-466a-853b-f0c2c2ee61b7",
+            "containerId": "",
+            "name": "popular",
+            "url": "http://127.0.0.1:8000/api/products/popular/",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-09-19T03:26:02.528Z",
+            "modified": "2024-09-19T03:27:06.940Z",
+            "headers": []
+        }
+    ],
+    "ref": "1b43lCb2U651ODsCsjm4XQ1yBv2qIKtnAo9OR5GXuQC98Fce3fZi4z5dQ3rmGjo1PcUODQnKC9SeyQES3KjwZw"
+}
